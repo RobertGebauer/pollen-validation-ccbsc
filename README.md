@@ -17,7 +17,7 @@ Such algorithms can be run on images of [PollenScience.eu Validation](https://va
 - Clone project
 - Create virtual environment:
   ```console
-  python3 -m .venv
+  python3 -m venv .venv
   ```
 - Jump to virtual environment and install dependencies:
   ```console

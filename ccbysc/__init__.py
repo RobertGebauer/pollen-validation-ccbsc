@@ -1,1 +1,1 @@
-from .ccbsc import CCBSCAlgorithm
+from ._ccbysc import CCBSCAlgorithm

@@ -1,2 +1,2 @@
-from .pollen import Pollen
-from .classification import Classification
+from ._pollen import Pollen
+from ._classification import Classification

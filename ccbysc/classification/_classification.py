@@ -1,5 +1,5 @@
 from typing import Dict
-from .pollen import Pollen
+from . import Pollen
 from ..device import Photo
 
 

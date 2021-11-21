@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class Pollen(Enum):
-    ALTERNARIA: 1
+    ALTERNARIA = 1
 
 
 POLLEN_NAMES = {
