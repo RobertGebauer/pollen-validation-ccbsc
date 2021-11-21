@@ -2,7 +2,7 @@
 CCBSC is an interface definition that supports you to create algorithms for pollen classification in order to run them on images of [PollenScience.eu Validation](https://validation.pollenscience.eu) database while making sure that results are stored well-structured in the database.
 
 # Installation
-    pip install ccbysc-0.0.1-py3-none-any.whl
+    pip install ccbysc_api-0.0.1-py3-none-any.whl
 
 #  Usage
 Your algorithm must inherit **CCBSCAlgorithm** class and provide the classify- and identifier-methods.
