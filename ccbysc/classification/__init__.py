@@ -1,2 +1,2 @@
 from ._pollen import Pollen
-from ._classification import Classification
+from ._classification import Classification, Coordinates
