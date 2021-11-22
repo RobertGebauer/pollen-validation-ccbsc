@@ -1,1 +1,1 @@
-from ._photo import Photo
+from ._photo import *
