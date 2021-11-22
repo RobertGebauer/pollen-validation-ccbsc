@@ -1,5 +1,5 @@
 from typing import Dict
-from . import Pollen
+from . import Pollen, POLLEN_NAMES
 from ..device import Photo
 
 
@@ -12,6 +12,9 @@ class Coordinates:
         self.width = width
         self.height = height
 
+    def __str__(self) -> str:
+        return "({x}, {y}, {width}, {height})".format(x=self.x, y=self.y, width=self.width, height=self.height)
+
 
 class Classification:
     """ Describes a classification which is basically the detected pollen type and coordinates where the pollen was detected 
@@ -22,3 +25,6 @@ class Classification:
         self.classification = classification
         self.photo = photo
         self.features = features
+
+    def __str__(self) -> str:
+        return "{classification} @ {coordinates}".format(classification=POLLEN_NAMES[self.classification], coordinates=self.coordinates)
