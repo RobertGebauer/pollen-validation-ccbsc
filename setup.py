@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 setup(
-    name='ccbysc-api',
+    name='ccbsc-api',
     packages=find_packages(),
-    version='0.0.2',
+    version='0.0.1-alpha',
     description='Framework to apply new algorithms on images of pollen.',
     author='Robert Gebauer',
     url="https://github.com/RobertGebauer/pollen-validation-ccbsc",
