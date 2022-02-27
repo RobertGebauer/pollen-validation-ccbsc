@@ -1,5 +1,5 @@
 from typing import Dict
-from . import Pollen, POLLEN_NAMES
+from . import Pollen
 from ..device import Photo
 
 
@@ -27,4 +27,4 @@ class Classification:
         self.features = features
 
     def __str__(self) -> str:
-        return "{classification} @ {coordinates}".format(classification=POLLEN_NAMES[self.classification], coordinates=self.coordinates)
+        return "{classification} @ {coordinates}".format(classification=self.classification, coordinates=self.coordinates)

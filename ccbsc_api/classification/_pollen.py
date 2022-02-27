@@ -1,10 +1,8 @@
 from enum import Enum
 
 
-class Pollen(Enum):
-    ALTERNARIA = 1
+class Pollen(str, Enum):
+    ALTERNARIA = "Alternaria"
 
-
-POLLEN_NAMES = {
-    Pollen.ALTERNARIA: "Alternaria"
-}
+    def __str__(self) -> str:
+        return str.__str__(self)
